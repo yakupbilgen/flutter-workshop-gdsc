@@ -1,16 +1,9 @@
 import 'package:flutter/material.dart';
 
+import 'day_1/day_1.dart';
+
 void main() {
   runApp(const MaterialApp(
-    home: MyApp(),
+    home: Day1(),
   ));
-}
-
-class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Container();
-  }
 }
