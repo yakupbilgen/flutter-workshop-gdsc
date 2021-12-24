@@ -5,8 +5,13 @@ import 'day_2/day_2.dart';
 import 'day_3/day_3.dart';
 
 void main() {
-  runApp(const MaterialApp(
+  runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
-    home: Day3(),
+    initialRoute: "/day3",
+    routes: {
+      "/day1": (context) => const Day1(),
+      "/day2": (context) => const Day2(),
+      "/day3": (context) => const Day3(),
+    },
   ));
 }
